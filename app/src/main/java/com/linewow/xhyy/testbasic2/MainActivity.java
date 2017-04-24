@@ -18,5 +18,7 @@ public class MainActivity extends AppCompatActivity {
         TextView textView = (TextView) findViewById(R.id.textView);
         EditText editText = (EditText) findViewById(R.id.editText);
         textView.setText("Hello, " + editText.getText().toString() + "!");
+
+//测试分支 测试分支测试
     }
 }
